@@ -6,7 +6,7 @@
     {
       "css": ["views/hackernews.css"],
       "js": ["lib/jquery-1.7.2.min.js", "controllers/hackernews.js"],
-      "matches": ["http://news.ycombinator.com/*"],
+      "matches": ["http://news.ycombinator.com/*", "https://news.ycombinator.com/*"],
       "run_at": "document_end"
     }
   ],
